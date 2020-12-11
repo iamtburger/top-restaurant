@@ -1,5 +1,5 @@
 const homeContent = () => {
-    return document.querySelector('#content').innerHTML = `
+    document.querySelector('#content').innerHTML = `
     <section class="hero is-dark is-large has-background">
     <img alt="Fill Murray" class="hero-background is-transparent" src="./fire-1042926_1920.jpg" />
     <!-- https://pixabay.com/hu/photos/t%C5%B1z-barbecue-kemping-1042926/ -->
@@ -33,7 +33,11 @@ const homeContent = () => {
                 </div>
             </div>
         </div>
-    </section>`
+    </section>`;
+
+    document.querySelector('#image-ref').innerHTML = `
+    Image by <a href="https://pixabay.com/hu/photos/t%C5%B1z-barbecue-kemping-1042926">Dictionary123</a>
+    `
 };
 
 
@@ -105,13 +109,17 @@ const menuContent = () => {
                 </div>
             </div>
         </div>
-    </section>`
+    </section>`;
+
+    document.querySelector('#image-ref').innerHTML = `
+    Image by <a href="https://pixabay.com/hu/photos/fasz%C3%A9n-par%C3%A1zs-grill-sz%C3%A9n-forr%C3%B3-2396754/">pixel2013</a>
+    `
 };
 
 const contactContent = () => {
     document.querySelector('#content').innerHTML = `
         <section class="hero is-dark is-medium has-background">
-        <img alt="Fill Murray" class="hero-background is-transparent" src="./charcoal-2396754_1920.jpg" />
+        <img alt="Fill Murray" class="hero-background is-transparent" src="./ribs.jpg" />
         <!-- https://pixabay.com/hu/photos/fasz%C3%A9n-par%C3%A1zs-grill-sz%C3%A9n-forr%C3%B3-2396754/ -->
         <div class="hero-body">
         <div class="container">
@@ -125,8 +133,29 @@ const contactContent = () => {
         </div>
         </section>
         <section>
-            
-        </section>
+        <div class="container mt-6">
+            <div class="columns is-centered m-4">
+
+                <div class="column is-one-quarter">
+                    <h1 class="title is-1 has-text-centered">
+                        Budapest
+                    </h1>
+                    <h3 class="title is-3 has-text-centered">
+                        Food Road 3
+                    </h3>
+                </div>
+                <div class="column is-one-quarter">
+                    <img src="./map.png" />
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    `;
+
+    document.querySelector('#image-ref').innerHTML = `
+        Image by <a href="https://unsplash.com/photos/s-Z-h0fEiBM">José Ignacio Pompé</a>
     `
 };
 
