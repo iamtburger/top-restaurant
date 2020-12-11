@@ -1,7 +1,7 @@
 const homeContent = () => {
     document.querySelector('#content').innerHTML = `
     <section class="hero is-dark is-large has-background">
-    <img alt="Fill Murray" class="hero-background is-transparent" src="./static/images/fire-1042926_1920.jpg" />
+    <img alt="fire" class="hero-background is-transparent" src="./static/images/fire-1042926_1920.jpg" />
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
@@ -44,7 +44,7 @@ const homeContent = () => {
 const menuContent = () => {
     document.querySelector('#content').innerHTML = `
     <section class="hero is-dark is-medium has-background">
-    <img alt="Fill Murray" class="hero-background is-transparent" src="./static/images/charcoal-2396754_1920.jpg" />
+    <img alt="coal" class="hero-background is-transparent" src="./static/images/charcoal-2396754_1920.jpg" />
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
@@ -117,7 +117,7 @@ const menuContent = () => {
 const contactContent = () => {
     document.querySelector('#content').innerHTML = `
         <section class="hero is-dark is-medium has-background">
-        <img alt="Fill Murray" class="hero-background is-transparent" src="./static/images/ribs.jpg" />
+        <img alt="meat" class="hero-background is-transparent" src="./static/images/ribs.jpg" />
         <div class="hero-body">
         <div class="container">
             <h1 class="title">
