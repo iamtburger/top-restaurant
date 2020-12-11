@@ -1,8 +1,7 @@
 const homeContent = () => {
     document.querySelector('#content').innerHTML = `
     <section class="hero is-dark is-large has-background">
-    <img alt="Fill Murray" class="hero-background is-transparent" src="./fire-1042926_1920.jpg" />
-    <!-- https://pixabay.com/hu/photos/t%C5%B1z-barbecue-kemping-1042926/ -->
+    <img alt="Fill Murray" class="hero-background is-transparent" src="./static/images/fire-1042926_1920.jpg" />
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
@@ -45,8 +44,7 @@ const homeContent = () => {
 const menuContent = () => {
     document.querySelector('#content').innerHTML = `
     <section class="hero is-dark is-medium has-background">
-    <img alt="Fill Murray" class="hero-background is-transparent" src="./charcoal-2396754_1920.jpg" />
-    <!-- https://pixabay.com/hu/photos/fasz%C3%A9n-par%C3%A1zs-grill-sz%C3%A9n-forr%C3%B3-2396754/ -->
+    <img alt="Fill Murray" class="hero-background is-transparent" src="./static/images/charcoal-2396754_1920.jpg" />
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
@@ -119,8 +117,7 @@ const menuContent = () => {
 const contactContent = () => {
     document.querySelector('#content').innerHTML = `
         <section class="hero is-dark is-medium has-background">
-        <img alt="Fill Murray" class="hero-background is-transparent" src="./ribs.jpg" />
-        <!-- https://pixabay.com/hu/photos/fasz%C3%A9n-par%C3%A1zs-grill-sz%C3%A9n-forr%C3%B3-2396754/ -->
+        <img alt="Fill Murray" class="hero-background is-transparent" src="./static/images/ribs.jpg" />
         <div class="hero-body">
         <div class="container">
             <h1 class="title">
@@ -145,7 +142,7 @@ const contactContent = () => {
                     </h3>
                 </div>
                 <div class="column is-one-quarter">
-                    <img src="./map.png" />
+                    <img src="./static/images/map.png" />
                 </div>
 
             </div>
